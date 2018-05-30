@@ -4,9 +4,6 @@ import { success, failure } from "./libs/response-lib";
 
 export async function main(event, context, callback) {
 
-  gibberish.what;
-
-
   const data = JSON.parse(event.body);
   const params = {
     TableName: process.env.tableName,
